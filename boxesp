@@ -1,3 +1,7 @@
+getgenv().esploop = true;
+
+while wait() do
+ if getgenv().esploop == true then
 local plr = game.Players.LocalPlayer
 local camera = game.Workspace.CurrentCamera
 
@@ -190,3 +194,5 @@ game.Players.PlayerAdded:Connect(function(newplr) --Parameter gets the new playe
     end
     coroutine.wrap(ESP)()
 end)
+end
+end
